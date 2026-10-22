@@ -1,0 +1,13 @@
+{
+  "run_id": "run-001",
+  "payload": "provenance-vault/reference-values/run-001",
+  "reference_values": {
+    "pi_40dp": "3.1415926535897932384626433832795028841972",
+    "two_pow_64_decimal": "18446744073709551616",
+    "payload_sha256": "83e21fe40cac60ce34643939c40dd52f5d7eb1b7a4d44e3b49bc4deebbbc689e"
+  },
+  "generation": {
+    "method": "computed by executing code (pi via Machin + Euler arctangent series cross-check; 2^64 via bignum integer arithmetic; digest via SHA-256)",
+    "note": "Values are machine-computed, not transcribed. The commit SHA is deliberately excluded here since it does not exist until this file is committed."
+  }
+}
